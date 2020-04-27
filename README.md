@@ -44,6 +44,3 @@ Validations are set in this java file for user name, mobile number and email
 PaymentWallet/src/main/java/com/cg/paymentwallet/ui/App.java
 The inputs from the user are attained by using Scanner utilities and the overall functional java files are called in this main file. 
 
-
-
-# Dependencies
