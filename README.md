@@ -12,6 +12,8 @@ Performs various operations like - Creating an account with necessary basic deta
 
 
 # Files Overview :
+Payment-Wallet---Using-Java/blob/master/PaymentWallet/src/main/java/com/cg/paymentwallet/dao/IWalletDao.java
+  Functions are written to perfom the following operations - Wallet login, Show balance, Deposit amount, Withdraw amount, Funds Transfer, Print the transaction
 
 
 # Dependencies :
