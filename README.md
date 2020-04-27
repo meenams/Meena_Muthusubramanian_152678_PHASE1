@@ -21,22 +21,28 @@ Performs various operations like - Creating an account with necessary basic deta
 
 # Files Overview
 PaymentWallet/src/main/java/com/cg/paymentwallet/dao/IWalletDao.java
-  Functions are written to perfom the following operations - Wallet login, Show balance, Deposit amount, Withdraw amount, Funds Transfer, Print the transaction
+  Functions are written to perfom the following operations
+  - Wallet login
+  - Show balance
+  - Deposit amount
+  - Withdraw amount
+  - Funds Transfer
+  - Print the transaction
   
 PaymentWallet/src/main/java/com/cg/paymentwallet/dto/Customer.java
- Inputs - name, phone number and email for creating the account
+Inputs are attained in runtime from the user - name, phone number and email for creating the account
 
 PaymentWallet/src/main/java/com/cg/paymentwallet/dto/Wallet.java
-	After creation of account - userid and password is set and the transaction is returned as an array element
+After creation of account - userid and password is set and the transaction is returned as an array element
 
 PaymentWallet/src/main/java/com/cg/paymentwallet/exception/IWalletException.java
-	Exception handling is done based on invalid login details and funds transfer where the parameters for inputs are set of values harcoded in the java file
+Exception handling is done based on invalid login details and funds transfer where the parameters for inputs are set of values harcoded in the java file
 
 PaymentWallet/src/main/java/com/cg/paymentwallet/service/WalletServiceImpl.java
-	Validations are set in this java file for user name, mobile number and email
+Validations are set in this java file for user name, mobile number and email
 
 PaymentWallet/src/main/java/com/cg/paymentwallet/ui/App.java
-	The inputs from the user are attained by using Scanner utilities and the overall functional java files are called in this main file. 
+The inputs from the user are attained by using Scanner utilities and the overall functional java files are called in this main file. 
 
 
 
